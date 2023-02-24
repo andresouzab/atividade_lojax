@@ -1,0 +1,70 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar Produto</title>
+    <link rel="stylesheet" type="text/css" href="atividade_loja/css">
+</head>
+<body>
+    <h1 style="text-align: center"; font-weight:> Cadastrar Produto</h1>
+    <h3>Preencha os campos abaixo para cadastrar um produto:</h3>
+    <form>
+        <p>
+            <label for="l_codigo">Código</label>
+            <input type="number" name="codigo" id="codigo" size="30" maxlength="10" placeholder="00000">
+        </p>
+        <p>
+            <label for="l_nome_p">Nome do Produto</label>
+            <input type="text" name="n_produto" id="n_produto" size="50" maxlength="50" placeholder="Nome do Produto">
+        </p>
+        <p>
+            <label for="l_preco">Preço do Produto</label>
+            <input type="text" name="preco" id="preco" size="30" maxlength="10" placeholder="Preço do Produto">
+        </p>
+        <p>
+            <label for="l_categoria">Categoria:</label>
+            <select name="categoria" id="categoria">
+                <option value="esporte">Esporte</option>
+                <option value="casual">Casual</option>
+                <option value="corrida">Corrida</option>
+                <option value="skatebording">Skatebording</option>
+            </select>  
+        </p>
+        <p>
+            <label for="l_ativo">Ativo:</label>
+
+                <input type="radio" name="ativo" id="ativo" value="Sim">
+                    <label for="l_sim">Sim</label>
+                
+                <input type="radio" name="ativo" id="ativo" value="Não">
+                    <label for="l_nao">Não</label>
+        </p>
+        <p>
+            <label for="l_esporte">Tamanhos Disponíveis:</label>
+            <input type="checkbox" name="38" id="n_38" value="n_38">
+            <label for="l_basquete">38</label>
+            <input type="checkbox" name="39" id="n_39" value="n_39">
+            <label for="l_basquete">39</label>
+            <input type="checkbox" name="40" id="n_40" value="n_40">
+            <label for="l_basquete">40</label>
+            <input type="checkbox" name="41" id="n_41" value="n_41">
+            <label for="l_basquete">41</label>
+            <input type="checkbox" name="42" id="n_42" value="n_42">
+            <label for="l_basquete">42</label>
+            <input type="checkbox" name="t_p" id="t_p" value="t_p">
+            <label for="l_basquete">P</label>
+            <input type="checkbox" name="t_m" id="t_m" value="t_m">
+            <label for="l_basquete">M</label>
+            <input type="checkbox" name="t_g" id="t_g" value="t_g">
+            <label for="l_basquete">G</label>
+            <input type="checkbox" name="t_gg" id="t_gg" value="t_gg">
+            <label for="l_basquete">GG</label>
+        </p>
+    </form>
+
+    <button type="submit" name="b_cadastrar" id="b_cadastrar"><a href="pagina_produtos.html">Cadastrar</button></a>
+    <button type="submit" name="voltar" id="voltar"><a href="pagina_produtos.html">Voltar</button></a>
+
+
+
+</body>
+</html>

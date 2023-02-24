@@ -3,9 +3,9 @@
     <meta charset="utf-8">
     <title>Site Loja X</title>
     <link rel="stylesheet" type="text/css" href="atividade_loja/css">
+    <script src="../js/pagina_loja.js"></script>
     
 </head>
-<body>
     <h1 style="text-align: center"> LOJA X</h1>
     <br>
     <br>
@@ -15,7 +15,7 @@
     <br>
     <h2 style="text-align: center">Seja Bem-Vindo!</h2>
     <h3 style="text-align: center">Faça o seu login para continuar</h3>
-    <form>
+    <form name="login" method="post" action="pagina_produtos.html" onsubmit="return validarEmail()">
         <p>
             <center>
             <label for="l_email">E-mail</label>
@@ -36,6 +36,6 @@
         </p>
 
     </form>
-//oii
+
 </body>
 </html>
