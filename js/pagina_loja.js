@@ -8,7 +8,7 @@ function validarEmail(){
         return false;
     }
     else if(document.login.email.value.trim() != email || document.login.password.value.trim() != password){  
-        alert("O E-mail está incorreto");
+        alert("O E-mail ou senha está incorreto");
         document.login.email.setfocus();
         return false;
     }
