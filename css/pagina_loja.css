@@ -1,0 +1,14 @@
+table{
+    font-family: arial;
+    border-collapse: collapse;
+}
+th{
+    text-align: center;
+    border: solid black 2px;
+}
+
+td{
+    text-align: center;
+    border: solid black 2px;
+}
+
