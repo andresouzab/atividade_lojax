@@ -3,134 +3,52 @@
     <meta charset="utf-8">
     <title>Produtos Adidas</title>
     <link rel="stylesheet" type="text/css" href="../css/pagina_loja.css">
-<body style="background-color:whitesmoke;">
+    <script src="../js/pagina_loja.js"></script>
+<body onload="listar()" style="background-color:whitesmoke;">
     <h1 style="text-align: center; font-family: 'Franklin Gothic Medium'"> Produtos Adidas</h1>
     <h3 style="text-align: center; font-family: 'Franklin Gothic Medium'">Confira os principais lançamentos da Marca</h3>
 
-    <img src="../imagens/tenis_adidas_nmd_1.jpg" width="30%" height="50%"> 
-    <img src="../imagens/jaqueta_adidas_1.jfif" width="30%" height="50%"> 
-    <img src="../imagens/bone_adidas_1.jpg" width="30%" height="50%"> 
+    <img src="../imagens/tenis_adidas_nmd_1.jpg" width="30%" height="50%">
     
-<table>
+
 <tr style="border: solid white;">
             <td width="36%" style="border: solid white">
             <h3 style="text-align:center; font-family: 'Franklin Gothic Medium'">Adidas NMD</h3>
     <table>
-        <tr>
-            <th>Código</th>
-            <th>Nome</th>
-            <th>Preço</th>
-            <th>Categoria</th>
-            <th>Ativo</th>
-            <th>Tamanho</th>    
-        </tr>
-        <tr>
-            <th>20231</th>
-            <th>Nmd</th>
-            <th>R$ 645,90</th>
-            <th>Casual</th>
-            <th>Sim</th>
-            <th>39</th>
-        </tr>
-        <tr>
-            <th>20232</th>
-            <th>Nmd</th>
-            <th>R$ 798,50</th>
-            <th>Casual</th>
-            <th>Não</th>
-            <th>40</th>
-        </tr>
-        <tr>
-            <th>20233</th>
-            <th>Nmd</th>
-            <th>R$ 899,99</th>
-            <th>Casual</th>
-            <th>Sim</th>
-            <th>41</th>
-        </tr>
-    </table>
-            </td>
-            <td  width="35%">
-    <h3 style="text-align:center; font-family: 'Franklin Gothic Medium'">Jaqueta Corta Vento</h3>
-    <table>
-        <tr>
-            <th>Código</th>
-            <th>Nome</th>
-            <th>Preço</th>
-            <th>Categoria</th>
-            <th>Ativo</th>
-            <th>Tamanho</th>
-        </tr>
-        <tr>
-            <th>20221</th>
-            <th>Corta Vento</th>
-            <th>R$ 445,00</th>
-            <th>Casual</th>
-            <th>Sim</th>
-            <th>P</th>
-        </tr>
-        <tr>
-            <th>20222</th>
-            <th>Corta Vento</th>
-            <th>R$ 500,00</th>
-            <th>Casual</th>
-            <th>Sim</th>
-            <th>M</th>
-        </tr>
-        <tr>
-            <th>20223</th>
-            <th>Corta Vento</th>
-            <th>R$ 550,00</th>
-            <th>Casual</th>
-            <th>Sim</th>
-            <th>G</th>
-        </tr>
-</table>
-</td>
-    <td  width="35%" style="border: solid white">
-    <h3 style="text-align:center; font-family: 'Franklin Gothic Medium'">Boné SK8</h3>
-        <table>
+        <thead>
             <tr>
                 <th>Código</th>
                 <th>Nome</th>
                 <th>Preço</th>
                 <th>Categoria</th>
                 <th>Ativo</th>
-                <th>Tamanho</th>
-            </tr>
-            <tr>
-                <th>20211</th>
-                <th>Boné Sk8</th>
-                <th>R$ 145,90</th>
-                <th>Casual</th>
-                <th>Sim</th>
-                <th>P</th>
-            </tr>
-            <tr>
-                <th>20212</th>
-                <th>Boné Sk8</th>
-                <th>R$ 150,00</th>
-                <th>Casual</th>
-                <th>Não</th>
-                <th>M</th>
-            </tr>
-            <tr>
-                <th>20213</th>
-                <th>Boné Sk8</th>
-                <th>R$ 150,00</th>
-                <th>Casual</th>
-                <th>Sim</th>
-                <th>G</th>
-            </tr>
-        </table>
-</td>
+                <th>Tamanho</th>    
+        </tr>
+        </thead>
+        
+        <tbody>
+
+        </tbody>
+        
+            </td>
 </tr>
-</table>    
+    </table>    
+
+<script id="colunas" type="text/x-jsrender">
+    <td data-column="Codigo"></td>
+    <td data-column="Nome"></td>
+    <td data-column="Preco"></td>
+    <td data-column="Categoria"></td>
+    <td data-column="Ativo"></td>
+    <td data-column="Tamanho"></td>
+</script>
 <br>
 <br>
     <button type="submit" name="cadastrar" id="cadastrar"><a href="pagina_cadastrar_pro.html" target="_blank">Cadastrar Produto</button></a>
 
     <button type="submit" name="logoff" id="logoff"><a href="pagina_login.html">Logoff</button></a>
+
+    <button type="submit" name="p_clientes" id="p_clientes"><a href="pagina_cliente.html" target="_blank">Clientes</button></a>
 
 </body>
 </head>

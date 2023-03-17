@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <title>Cadastrar Produto</title>
     <link rel="stylesheet" type="text/css" href="atividade_loja/css">
+    <script src="../js/pagina_loja.js"></script>
 </head>
 <body style="background-image: url('tela_login.jpg'); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover">
     <h1 style="text-align: center; text-align: center; font-family:Cambria"> Cadastrar Produto</h1>
@@ -46,29 +47,29 @@
                     <label for="l_nao">Não</label>
         </p>
         <p>
-            <label for="l_esporte; font-family:Calibri">Tamanhos Disponíveis:</label>
-            <input type="checkbox" name="38" id="n_38" value="n_38">
+            <label for="l_esporte; font-family:Calibri" id="tamanho">Tamanhos Disponíveis:</label>
+            <input type="checkbox" name="tamanho" id="tamanho" value="38">
             <label for="l_basquete">38</label>
-            <input type="checkbox" name="39" id="n_39" value="n_39">
+            <input type="checkbox" name="tamanho" id="tamanho" value="39">
             <label for="l_basquete">39</label>
-            <input type="checkbox" name="40" id="n_40" value="n_40">
+            <input type="checkbox" name="tamanho" id="tamanho" value="40">
             <label for="l_basquete">40</label>
-            <input type="checkbox" name="41" id="n_41" value="n_41">
+            <input type="checkbox" name="tamanho" id="tamanho" value="41">
             <label for="l_basquete">41</label>
-            <input type="checkbox" name="42" id="n_42" value="n_42">
+            <input type="checkbox" name="tamanho" id="tamanho" value="42">
             <label for="l_basquete">42</label>
-            <input type="checkbox" name="t_p" id="t_p" value="t_p">
+            <input type="checkbox" name="tamanho" id="tamanho" value="P">
             <label for="l_basquete">P</label>
-            <input type="checkbox" name="t_m" id="t_m" value="t_m">
+            <input type="checkbox" name="tamanho" id="tamanho" value="M">
             <label for="l_basquete">M</label>
-            <input type="checkbox" name="t_g" id="t_g" value="t_g">
+            <input type="checkbox" name="tamanho" id="tamanho" value="G">
             <label for="l_basquete">G</label>
-            <input type="checkbox" name="t_gg" id="t_gg" value="t_gg">
+            <input type="checkbox" name="tamanho" id="tamanho" value="GG">
             <label for="l_basquete">GG</label>
         </p>
     </form>
 
-    <button type="submit" name="b_cadastrar" id="b_cadastrar"><a href="pagina_produtos.html">Cadastrar</button></a>
+    <button type="submit" name="b_cadastrar" id="b_cadastrar" onclick="cadastrar()">Cadastrar</button>
     <button type="submit" name="voltar" id="voltar"><a href="pagina_produtos.html">Voltar</button></a>
 
 </center>

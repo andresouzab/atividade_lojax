@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/pagina_loja.js"></script>
+    <title>Cadastrar Cliente</title>
+</head>
+<body>
+    <form action="">
+        <h1>Cadastrar Novo Cliente</h1>
+        <h2>Preencha as informações abaixo para cadastrar um novo cliente:</h2>
+        <p>
+            <label for="l_cliente_codigo font-family:Calibri">Código Cliente</label>
+            <input type="number" name="codigo_cliente" id="codigo_cliente" placeholder="0000000" size="15" maxlength="50">
+        </p>
+        <p>
+            <label for="l_nome_cliente; font-family:Calibri">Nome</label>
+            <input type="text" name="nome" id="nome" size="50" maxlength="50" placeholder="Nome Cliente">
+        </p>
+        <p>
+            <label for="l_cpf; font-family:Calibri">CPF</label>
+            <input type="text" name="cpf" id="cpf" size="13" maxlength="20" placeholder="XXX.XXX.XXX-XX">
+        </p>
+        <p>
+            <label for="l_nascimento; font-family:Calibri">Data de Nascimento</label>
+            <input type="date" name="nascimento" id="nascimento">
+        </p>
+        <p>
+            <label for="l_telefone; font-family:Calibri">Telefone</label>
+            <input type="text" name="telefone" id="telefone" size="15" maxlength="20" placeholder="(99)99999-9999">
+        </p>
+        <p>
+            <label for="l_cliente_email; font-family:Calibri">E-mail</label>
+            <input type="email" name="c_email" id="c_email" size="20" maxlength="50" placeholder="nome@exemplo.com.br">
+        </p>
+    </form>
+    
+    <button type="submit" name="gravar" id="gravar" onclick="cadastrarCliente()">Gravar</button>
+    <button type="submit" name="retornar" id="retornar"  target="_blank"><a href="pagina_cliente.html">Lista de Clientes</button></a>
+</body>
+</html>
